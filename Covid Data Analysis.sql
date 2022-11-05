@@ -80,3 +80,6 @@ Join [Covid Data Analysis]..COVID_VACCINES$ Vac
 	on dea.location=vac.location
 	and dea.date = vac.date
 where dea.continent is not null
+
+select *
+from Percentage_Pop_Vaccinated
